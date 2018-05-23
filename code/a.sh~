@@ -1,8 +1,0 @@
-#!/bin/bash
-
-source ~/tensorflow/bin/activate 
-cd /home/anjanatiha/Downloads/project/Code/current_code/nmt
-python -m nmt.nmt \
-    --out_dir=/home/anjanatiha/Downloads/project/Code/current_code/inout/output/nmt_model \
-    --inference_input_file=/home/anjanatiha/Downloads/project/Code/current_code/inout/output/nmt_model/my_infer_file.vi \
-    --inference_output_file=/home/anjanatiha/Downloads/project/Code/current_code/inout/output/nmt_model/output_infer
