@@ -1,0 +1,35 @@
+
+To apply byte pair encoding to word segmentation, invoke these commands:
+
+    ./learn_bpe.py -s {num_operations} < train.en > code.en
+    ./apply_bpe.py -c code.en < test.en
+
+To segment rare words into character n-grams, do the following:
+
+    python get_vocab.py < train.en > vocab.en
+    ./segment-char-ngrams.py --vocab vocab.en -n {order} --shortlist {size} < {test_file}
+
+The original segmentation can be restored with a simple replacement:
+
+    sed -r 's/(@@ )|(@@ ?$)//g'
+
+
+
+
+python learn_bpe.py -s 5 < train.en > vocab.vi
+
+python apply_bpe.py -c b < d
+
+
+python get_vocab.py < train.en > vocab.en
+python segment-char-ngrams.py --vocab vocab -n {order} --shortlist {size} < {test_file}
+
+
+python get_vocab.py < data/processed_dialouge/cornell_movie/train.en > data/processed_dialouge/cornell_movie/vocab.en
+python get_vocab.py < data/processed_dialouge/cornell_movie/train.vi > data/processed_dialouge/cornell_movie/vocab.vi
+
+
+cd Downloads/project/Code/current_code/subword-nmt
+
+python get_vocab.py < chat_corpus/corpus/input_data/cornell_movie/train.en > chat_corpus/corpus/input_data/cornell_movie/vocab.en
+python get_vocab.py < chat_corpus/corpus/input_data/cornell_movie/train.vi > chat_corpus/corpus/input_data/cornell_movie/vocab.vi

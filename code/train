@@ -1,0 +1,43 @@
+#!/bin/bash
+
+source ~/tensorflow/bin/activate 
+
+nmt="$PWD/nmt"
+
+
+nmt_model="$PWD/inout/output/nmt_model"
+
+vocab_prefix="$PWD/inout/input/nmt_data/vocab"
+train_prefix="$PWD/inout/input/nmt_data/train"
+dev_prefix="$PWD/inout/input/nmt_data/dev"
+test_prefix="$PWD/inout/input/nmt_data/test"
+out_dir="$PWD/inout/output/nmt_model"
+
+
+
+cd $nmt
+
+rm -r $nmt_model
+mkdir $nmt_model
+
+
+python -m nmt.nmt \
+    --src=from --tgt=to \
+    --vocab_prefix=$vocab_prefix  \
+    --train_prefix=$train_prefix \
+    --dev_prefix=$dev_prefix  \
+    --test_prefix=$test_prefix \
+    --out_dir=$out_dir \
+    --attention=scaled_luong \
+    --num_train_steps=500000 \
+    --steps_per_stats=100 \
+    --num_layers=2 \
+    --num_units=512 \
+    --learning_rate=0.001 \
+    --decay_steps=1 \
+    --start_decay_step=1 \
+    --beam_width=10 \
+    --length_penalty_weight=1.0 \
+    --optimizer=adam \
+    --encoder_type=bi \
+    --num_translations_per_input=30

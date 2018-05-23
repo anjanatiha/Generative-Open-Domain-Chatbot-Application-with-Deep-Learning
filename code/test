@@ -1,0 +1,24 @@
+#!/bin/bash
+
+source ~/tensorflow/bin/activate 
+
+
+out_dir="$PWD/inout/output/nmt_model"
+
+inference_input_file="$PWD/inout/output/nmt_model/my_infer_file.vi"
+inference_output_file="$PWD/inout/output/nmt_model/output_infer"
+
+
+cd "$PWD/nmt"
+
+echo $1 >> $inference_input_file
+python -m nmt.nmt \
+    --out_dir=$out_dir \
+    --inference_input_file=$inference_input_file \
+    --inference_output_file=$inference_output_file
+
+filelines="cat $inference_output_file"
+echo Start
+for line in $filelines ; do
+    echo $line
+done

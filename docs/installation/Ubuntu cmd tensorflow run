@@ -1,0 +1,3 @@
+source ~/tensorflow/bin/activate 
+
+(tensorflow)$ deactivate

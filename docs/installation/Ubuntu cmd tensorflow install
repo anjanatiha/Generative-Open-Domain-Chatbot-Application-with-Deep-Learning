@@ -1,0 +1,63 @@
+Installing with Virtualenv
+Take the following steps to install TensorFlow with Virtualenv:
+
+Install pip and Virtualenv by issuing one of the following commands:
+
+$ sudo apt-get install python3-pip python3-dev python-virtualenv # for Python 3.n
+
+Create a Virtualenv environment by issuing one of the following commands:
+$ virtualenv --system-site-packages -p python3 targetDirectory # for Python 3.n
+
+where targetDirectory specifies the top of the Virtualenv tree. Our instructions assume that targetDirectory is ~/tensorflow, but you may choose any directory.
+
+Activate the Virtualenv environment by issuing one of the following commands:
+
+$ source ~/tensorflow/bin/activate # bash, sh, ksh, or zsh
+
+The preceding source command should change your prompt to the following:
+
+(tensorflow)$ 
+Ensure pip ≥8.1 is installed:
+
+(tensorflow)$ easy_install -U pip
+Issue one of the following commands to install TensorFlow in the active Virtualenv environment:
+
+(tensorflow)$ pip3 install --upgrade tensorflow     # for Python 3.n
+
+(tensorflow)$ pip3 install --upgrade tensorflow-gpu # for Python 3.n and GPU
+If the above command succeeds, skip Step 6. If the preceding command fails, perform Step 6.
+
+
+
+
+
+
+(Optional) If Step 5 failed (typically because you invoked a pip version lower than 8.1), install TensorFlow in the active Virtualenv environment by issuing a command of the following format:
+
+(tensorflow)$ pip install --upgrade tfBinaryURL   # Python 2.7
+(tensorflow)$ pip3 install --upgrade tfBinaryURL  # Python 3.n 
+where tfBinaryURL identifies the URL of the TensorFlow Python package. The appropriate value of tfBinaryURLdepends on the operating system, Python version, and GPU support. Find the appropriate value for tfBinaryURL for your system here. For example, if you are installing TensorFlow for Linux, Python 3.4, and CPU-only support, issue the following command to install TensorFlow in the active Virtualenv environment:
+
+(tensorflow)$ pip3 install --upgrade \
+ https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.6.0-cp34-cp34m-linux_x86_64.whl
+If you encounter installation problems, see Common Installation Problems.
+
+Next Steps
+After installing TensorFlow, validate the installation.
+
+Note that you must activate the Virtualenv environment each time you use TensorFlow. If the Virtualenv environment is not currently active, invoke one of the following commands:
+
+ $ source ~/tensorflow/bin/activate      # bash, sh, ksh, or zsh
+
+When the Virtualenv environment is active, you may run TensorFlow programs from this shell. Your prompt will become the following to indicate that your tensorflow environment is active:
+
+(tensorflow)$ 
+When you are done using TensorFlow, you may deactivate the environment by invoking the deactivate function as follows:
+
+(tensorflow)$ deactivate 
+The prompt will revert back to your default prompt (as defined by the PS1 environment variable).
+
+Uninstalling TensorFlow
+To uninstall TensorFlow, simply remove the tree you created. For example:
+
+$ rm -r targetDirectory 

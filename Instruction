@@ -1,0 +1,97 @@
+Requirement: 
+Google's Tensorflow 1.6 
+Python 3.4
+tensorboard
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------For Intelligent Chatbot GUI---------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_____________________________________________
+Instruction For Intelligent chatbot running: 
+_____________________________________________
+
+1. Activate tensorflow
+   source ~/tensorflow/bin/activate 
+2. Move to folder "project/Code/current_code"
+   cd /home/anjanatiha/Downloads/project/Code/current_code
+3. type following to open gui
+   python chat_gui.py
+
+
+Overall:
+source ~/tensorflow/bin/activate
+cd /home/anjanatiha/Downloads/project/Code/current_code
+python chat_gui.py
+
+4. Please find report and powerpoint presentation in folder "Report Presentation"
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------Instruction For Intelligent chatbot Training----------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1. Activate tensorflow
+   source ~/tensorflow/bin/activate 
+
+2. move to nmt module:
+   change prefix "/home/anjanatiha/Downloads/project" to current project location:
+   cd /home/anjanatiha/Downloads/project/Code/current_code/nmt
+
+3. remove model folder: 
+   change prefix "/home/anjanatiha/Downloads/project" to current project location:
+   rm -r /home/anjanatiha/Downloads/project/Code/current_code/inout/output/nmt_model
+
+4. create nmt training output folder:
+   change prefix "/home/anjanatiha/Downloads/project" to current project location
+   mkdir /home/anjanatiha/Downloads/project/Code/current_code/inout/output/nmt_model
+
+
+5. update location of "vocab_prefix", "train_prefix", "dev_prefix", "test_prefix", "out_dir" by changing the prefix in all these files with  where prefix "/home/anjanatiha/Downloads/project" should be changed to current project folder
+Also, have option to change - "num_train_steps", "steps_per_stats", "num_units", "learning_rate", "beam_width", "num_translations_per_input"
+
+Following is the training instruction
+
+python -m nmt.nmt \
+    --src=vi --tgt=en \
+    --vocab_prefix=/home/anjanatiha/Downloads/project/Code/current_code/inout/input/nmt_data/vocab  \
+    --train_prefix=/home/anjanatiha/Downloads/project/Code/current_code/inout/input/nmt_data/train \
+    --dev_prefix=/home/anjanatiha/Downloads/project/Code/current_code/inout/input/nmt_data/tst2012  \
+    --test_prefix=/home/anjanatiha/Downloads/project/Code/current_code/inout/input/nmt_data/tst2013 \
+    --out_dir=/home/anjanatiha/Downloads/project/Code/current_code/inout/output/nmt_model \
+    --attention=scaled_luong \
+    --num_train_steps=12000 \
+    --steps_per_stats=100 \
+    --num_layers=2 \
+    --num_units=512 \
+    --learning_rate=0.001 \
+    --decay_steps=1 \
+    --start_decay_step=1 \
+    --beam_width=10 \
+    --length_penalty_weight=1.0 \
+    --optimizer=adam \
+    --encoder_type=bi \
+    --num_translations_per_input=30
+
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+For viewing training performance: 
+
+1. Activate tensorflow
+   source ~/tensorflow/bin/activate 
+
+2. move to nmt module:
+   cd /home/anjanatiha/Downloads/project/Code/current_code/nmt
+3. enter following command
+   tensorboard --port 22222 --logdir /home/anjanatiha/Downloads/project/Code/current_code/inout/output/nmt_model
+
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+

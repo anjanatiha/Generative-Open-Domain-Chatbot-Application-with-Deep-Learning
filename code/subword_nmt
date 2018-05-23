@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source ~/tensorflow/bin/activate 
+
+
+in_dir="$PWD/chat_corpus/corpus/cornell/input_data"
+out_dir="$PWD/inout/input/nmt_data"
+sub_word_dir="$PWD/subword-nmt"
+
+cd $sub_word_dir
+
+python get_vocab.py <"$in_dir/train.from" > "$out_dir/vocab.from"
+python get_vocab.py <"$in_dir/train.to" > "$out_dir/vocab.to"

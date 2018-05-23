@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source ~/tensorflow/bin/activate 
+
+
+out_dir="$PWD/inout/output/nmt_model/"
+
+
+tensorboard --port 22222 --logdir $out_dir
+

@@ -1,0 +1,78 @@
+#!/bin/bash
+
+source ~/tensorflow/bin/activate 
+
+nmt="$PWD/nmt"
+
+
+nmt_model="$PWD/inout/output/nmt_model"
+
+vocab_prefix="$PWD/inout/input/nmt_data/vocab"
+
+
+
+parent_dir = "corpus"
+
+extracted_dir = "extracted"
+pre_processed_dir = "pre_processed"
+input_data_dir = "input_data"
+
+corpus_name = "cornell_movie"
+
+train_test_from = "train_test.en"
+train_test_to = "train_test.vi"
+train_from = "train.en"
+train_to = "train.vi"
+
+test_from = "tst2012.en"
+test_to = "tst2012.vi"
+dev_from = "tst2013.en"
+dev_to = "tst2013.vi"
+
+vocab_from = "vocab.en"
+vocab_to = "vocab.vi"
+
+
+dialogue_from = "$PWD/$parent_dir/$pre_processed_dir/$corpus_name/$train_test_from"
+dialogue_to = "$PWD/$parent_dir/$pre_processed_dir/$corpus_name/$train_test_to"
+
+train_from = "$PWD/$parent_dir/$input_data_dir/$corpus_name/$train_from"
+train_to = "$PWD/$parent_dir/$input_data_dir/$corpus_name/$train_to"
+
+test_from = "$PWD/$parent_dir/$input_data_dir/$corpus_name/$test_from "
+test_to = "$PWD/$parent_dir/$input_data_dir/$corpus_name/$test_to "
+
+vocab_from = "$PWD/$parent_dir/$input_data_dir/$corpus_name/$vocab_from"
+vocab_to = "$PWD/$parent_dir/$input_data_dir/$corpus_name/$vocab_to "
+
+
+
+
+max_dialouge_count = -1
+#max_dialouge_count = 5000
+max_dialouge_count_train_test = -1
+type_d = "sub_inc"
+symbol_seq = '+++$+++ '
+
+
+tst2012_size = 3000
+tst2013_size = 3000
+
+max_test_dev_count = tst2012_size
+
+
+train_percentile = 97
+#train_percentile = 75
+
+# max len of sentence
+#max_len = 100
+max_len = -1
+
+
+
+pre_process_dialouge(_raw_dialogue_file_path, _pre_processed_dir, movie_dir, _dialogue_file1, _dialogue_file2, _train_file1, _train_file2, _test_file1, _test_file2, _dev_file1, _dev_file2, _vocab_file1, _vocab_file2, max_dialouge_count, max_dialouge_count_train_test, train_percentile, symbol_seq, type_d, max_len, max_test_dev_count)
+
+python -c'import themodule; themodule.thefunction("boo!")'
+
+
+
