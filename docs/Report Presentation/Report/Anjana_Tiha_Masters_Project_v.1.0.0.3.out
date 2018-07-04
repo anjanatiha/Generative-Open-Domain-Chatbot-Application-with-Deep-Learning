@@ -1,0 +1,32 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Related Works}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Sequence to Sequence \(Seq2Seq\)}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Google's Neural Machine Translation\(GNMT\)}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Deep Reinforcement Learning}{chapter.2}% 5
+\BOOKMARK [0][-]{chapter.3}{Limitations}{}% 6
+\BOOKMARK [0][-]{chapter.4}{Deep Neural Network for Chatbot}{}% 7
+\BOOKMARK [1][-]{section.4.1}{Recurrent Neural Network}{chapter.4}% 8
+\BOOKMARK [2][-]{subsection.4.1.1}{Recurrent Neural Network Architecture}{section.4.1}% 9
+\BOOKMARK [2][-]{subsection.4.1.2}{Long-Short-Term-Memory\(LSTM\)}{section.4.1}% 10
+\BOOKMARK [0][-]{chapter.5}{Architecture}{}% 11
+\BOOKMARK [1][-]{section.5.1}{Google's Neural Machine Translation \(GNMT\)}{chapter.5}% 12
+\BOOKMARK [2][-]{subsection.5.1.1}{Sequence to Sequence \(Seq2Seq\) Architecture}{section.5.1}% 13
+\BOOKMARK [0][-]{chapter.6}{Data}{}% 14
+\BOOKMARK [1][-]{section.6.1}{Data Collection}{chapter.6}% 15
+\BOOKMARK [2][-]{subsection.6.1.1}{Dataset 1: Cornell Movie Subtitle Corpus}{section.6.1}% 16
+\BOOKMARK [1][-]{section.6.2}{Data Preprocessing}{chapter.6}% 17
+\BOOKMARK [2][-]{subsection.6.2.1}{Preprocessing of Cornell Movie Subtitle Corpus}{section.6.2}% 18
+\BOOKMARK [0][-]{chapter.7}{Implementation Summary}{}% 19
+\BOOKMARK [0][-]{chapter.8}{Hardware Specification}{}% 20
+\BOOKMARK [0][-]{chapter.9}{Experiment}{}% 21
+\BOOKMARK [1][-]{section.9.1}{Training}{chapter.9}% 22
+\BOOKMARK [2][-]{subsection.9.1.1}{Training Dataset}{section.9.1}% 23
+\BOOKMARK [2][-]{subsection.9.1.2}{Training Model and Parameters}{section.9.1}% 24
+\BOOKMARK [0][-]{chapter.10}{Result}{}% 25
+\BOOKMARK [0][-]{chapter.11}{Graphical Interface \(GUI\)}{}% 26
+\BOOKMARK [0][-]{chapter.12}{Challenges}{}% 27
+\BOOKMARK [0][-]{chapter.13}{Discussion}{}% 28
+\BOOKMARK [0][-]{chapter.14}{Future Work}{}% 29
+\BOOKMARK [0][-]{chapter.15}{Conclusion}{}% 30
+\BOOKMARK [0][-]{chapter.16}{References}{}% 31
+\BOOKMARK [0][-]{chapter.17}{Image Credits}{}% 32

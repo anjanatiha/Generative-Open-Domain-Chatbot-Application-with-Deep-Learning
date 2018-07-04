@@ -1,0 +1,1879 @@
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6630 64-bit)  (format=lualatex 2018.3.20)  14 APR 2018 16:47
+ restricted system commands enabled.
+**Anjana_Tiha_Masters_Project_v.1.0.0.3.tex
+(./Anjana_Tiha_Masters_Project_v.1.0.0.3.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using cache: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cach
+e/generic)
+luaotfload | conf : Root cache directory is C:/Users/Anjana Tiha/AppData/Local/M
+iKTeX/2.9/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/lua
+tex/luaotfload/fontloader-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is C:/Users/Anjana Tiha/AppData/Local/M
+iKTeX/2.9/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 1.100 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/report.
+cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size12.
+clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Anjana Tiha/AppData/L
+ocal/MiKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc(load luc: C:/Use
+rs/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmroman12
+-regular.luc))
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babe
+l.sty"
+Package: babel 2018/02/14 3.18 The Babel package
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/swit
+ch.def"
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/luab
+abel.def"
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 113.
+\l@ancientgreek=\language3
+\l@arabic=\language4
+\l@armenian=\language5
+\l@assamese=\language6
+\l@basque=\language7
+\l@bengali=\language8
+\l@bokmal=\language9
+\l@bulgarian=\language10
+\l@catalan=\language11
+\l@classiclatin=\language12
+\l@coptic=\language13
+\l@croatian=\language14
+\l@czech=\language15
+\l@danish=\language16
+\l@dutch=\language17
+\l@esperanto=\language18
+\l@estonian=\language19
+\l@farsi=\language20
+\l@finnish=\language21
+\l@french=\language22
+\l@galician=\language23
+\l@georgian=\language24
+\l@german=\language25
+\l@german-x-2017-03-31=\language26
+\l@greek=\language27
+\l@gujarati=\language28
+\l@hindi=\language29
+\l@hungarian=\language30
+\l@icelandic=\language31
+\l@indonesian=\language32
+\l@interlingua=\language33
+\l@irish=\language34
+\l@italian=\language35
+\l@kannada=\language36
+\l@kurmanji=\language37
+\l@latin=\language38
+\l@latvian=\language39
+\l@lithuanian=\language40
+\l@malayalam=\language41
+\l@marathi=\language42
+\l@mongolian=\language43
+\l@mongolianlmc=\language44
+\l@monogreek=\language45
+\l@ngerman=\language46
+\l@ngerman-x-2017-03-31=\language47
+\l@nynorsk=\language48
+\l@oriya=\language49
+\l@panjabi=\language50
+\l@piedmontese=\language51
+\l@pinyin=\language52
+\l@polish=\language53
+\l@portuguese=\language54
+\l@romanian=\language55
+\l@romansh=\language56
+\l@russian=\language57
+\l@sanskrit=\language58
+\l@serbian=\language59
+\l@serbianc=\language60
+\l@slovak=\language61
+\l@slovenian=\language62
+\l@spanish=\language63
+\l@swedish=\language64
+\l@swissgerman=\language65
+\l@tamil=\language66
+\l@telugu=\language67
+\l@thai=\language68
+\l@turkish=\language69
+\l@turkmen=\language70
+\l@ukenglish=\language71
+\l@ukrainian=\language72
+\l@uppersorbian=\language73
+\l@usenglishmax=\language74
+\l@welsh=\language75
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/arabi/bblopt
+s.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
+babel
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/babel-englis
+h/english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/babe
+l.def"
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/babel/luab
+abel.def"))
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/inputen
+c.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geo
+metry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/key
+val.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/i
+fpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/i
+fvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/if
+xetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks17
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geo
+metry.cfg"))
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/ams
+symb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/ams
+fonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsm
+ath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amst
+ext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsg
+en.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen112
+))
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsb
+sy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen113
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amso
+pn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks20
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks21
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amscls/amsth
+m.sty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks29
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fontspec/fon
+tspec.sty"
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3packages/x
+parse/xparse.sty"
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/exp
+l3.sty"
+Package: expl3 2018/03/05 L3 programming layer (loader) 
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/exp
+l3-code.tex"
+Package: expl3 2018/03/05 L3 programming layer (code)
+\ucharcat@table=\catcodetable5
+\c_max_int=\count104
+\l_tmpa_int=\count105
+\l_tmpb_int=\count106
+\g_tmpa_int=\count107
+\g_tmpb_int=\count108
+\g__intarray_font_int=\count109
+\g__prg_map_int=\count110
+\c_log_iow=\count111
+\l_iow_line_count_int=\count112
+\l__iow_line_target_int=\count113
+\l__iow_one_indent_int=\count114
+\l__iow_indent_int=\count115
+\c_zero_dim=\dimen121
+\c_max_dim=\dimen122
+\l_tmpa_dim=\dimen123
+\l_tmpb_dim=\dimen124
+\g_tmpa_dim=\dimen125
+\g_tmpb_dim=\dimen126
+\c_zero_skip=\skip49
+\c_max_skip=\skip50
+\l_tmpa_skip=\skip51
+\l_tmpb_skip=\skip52
+\g_tmpa_skip=\skip53
+\g_tmpb_skip=\skip54
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count116
+\c__fp_leading_shift_int=\count117
+\c__fp_middle_shift_int=\count118
+\c__fp_trailing_shift_int=\count119
+\c__fp_big_leading_shift_int=\count120
+\c__fp_big_middle_shift_int=\count121
+\c__fp_big_trailing_shift_int=\count122
+\c__fp_Bigg_leading_shift_int=\count123
+\c__fp_Bigg_middle_shift_int=\count124
+\c__fp_Bigg_trailing_shift_int=\count125
+\c__fp_rand_size_int=\count126
+\c__fp_rand_four_int=\count127
+\c__fp_rand_eight_int=\count128
+\l__sort_length_int=\count129
+\l__sort_min_int=\count130
+\l__sort_top_int=\count131
+\l__sort_max_int=\count132
+\l__sort_true_max_int=\count133
+\l__sort_block_int=\count134
+\l__sort_begin_int=\count135
+\l__sort_end_int=\count136
+\l__sort_A_int=\count137
+\l__sort_B_int=\count138
+\l__sort_C_int=\count139
+\l__tl_build_start_index_int=\count140
+\l__tl_build_index_int=\count141
+\l__tl_analysis_normal_int=\count142
+\l__tl_analysis_index_int=\count143
+\l__tl_analysis_nesting_int=\count144
+\l__tl_analysis_type_int=\count145
+\l__regex_internal_a_int=\count146
+\l__regex_internal_b_int=\count147
+\l__regex_internal_c_int=\count148
+\l__regex_balance_int=\count149
+\l__regex_group_level_int=\count150
+\l__regex_mode_int=\count151
+\c__regex_cs_in_class_mode_int=\count152
+\c__regex_cs_mode_int=\count153
+\l__regex_catcodes_int=\count154
+\l__regex_default_catcodes_int=\count155
+\c__regex_catcode_L_int=\count156
+\c__regex_catcode_O_int=\count157
+\c__regex_catcode_A_int=\count158
+\c__regex_all_catcodes_int=\count159
+\l__regex_show_lines_int=\count160
+\l__regex_min_state_int=\count161
+\l__regex_max_state_int=\count162
+\l__regex_left_state_int=\count163
+\l__regex_right_state_int=\count164
+\l__regex_capturing_group_int=\count165
+\l__regex_min_pos_int=\count166
+\l__regex_max_pos_int=\count167
+\l__regex_curr_pos_int=\count168
+\l__regex_start_pos_int=\count169
+\l__regex_success_pos_int=\count170
+\l__regex_curr_char_int=\count171
+\l__regex_curr_catcode_int=\count172
+\l__regex_last_char_int=\count173
+\l__regex_case_changed_char_int=\count174
+\l__regex_curr_state_int=\count175
+\l__regex_step_int=\count176
+\l__regex_min_active_int=\count177
+\l__regex_max_active_int=\count178
+\l__regex_replacement_csnames_int=\count179
+\l__regex_match_count_int=\count180
+\l__regex_min_submatch_int=\count181
+\l__regex_submatch_int=\count182
+\l__regex_zeroth_submatch_int=\count183
+\g__regex_trace_regex_int=\count184
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
+\l__box_top_dim=\dimen127
+\l__box_bottom_dim=\dimen128
+\l__box_left_dim=\dimen129
+\l__box_right_dim=\dimen130
+\l__box_top_new_dim=\dimen131
+\l__box_bottom_new_dim=\dimen132
+\l__box_left_new_dim=\dimen133
+\l__box_right_new_dim=\dimen134
+\l__box_internal_box=\box33
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen135
+\l__coffin_offset_x_dim=\dimen136
+\l__coffin_offset_y_dim=\dimen137
+\l__coffin_x_dim=\dimen138
+\l__coffin_y_dim=\dimen139
+\l__coffin_x_prime_dim=\dimen140
+\l__coffin_y_prime_dim=\dimen141
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen142
+\l__coffin_display_x_dim=\dimen143
+\l__coffin_display_y_dim=\dimen144
+\l__coffin_bounding_shift_dim=\dimen145
+\l__coffin_left_corner_dim=\dimen146
+\l__coffin_right_corner_dim=\dimen147
+\l__coffin_bottom_corner_dim=\dimen148
+\l__coffin_top_corner_dim=\dimen149
+\l__coffin_scaled_total_height_dim=\dimen150
+\l__coffin_scaled_width_dim=\dimen151
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/l3p
+dfmode.def"
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count185
+))
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count186
+\g__xparse_grabber_int=\count187
+\l__xparse_m_args_int=\count188
+\l__xparse_mandatory_args_int=\count189
+\l__xparse_v_nesting_int=\count190
+)
+Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fontspec/fon
+tspec-luatex.sty"
+Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count191
+\l__fontspec_language_int=\count192
+\l__fontspec_strnum_int=\count193
+\l__fontspec_tmp_int=\count194
+\l__fontspec_em_int=\count195
+\l__fontspec_emdef_int=\count196
+\l__fontspec_strong_int=\count197
+\l__fontspec_strongdef_int=\count198
+\l__fontspec_tmpa_dim=\dimen152
+\l__fontspec_tmpb_dim=\dimen153
+\l__fontspec_tmpc_dim=\dimen154
+\g__file_internal_ior=\read1
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/fontenc
+.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/tuenc.d
+ef"
+File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 545.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 549.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 553.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 557.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 561.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 569.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 573.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 577.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 581.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 585.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 593.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeature with sig. 'm' on line 597.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 605.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 609.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newICUfeature with sig. 'mmm' on line 613.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 617.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 621.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 625.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 629.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 637.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3366.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3372.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3384.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3421.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareAccent with sig. 'm' on line 3427.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3433.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3440.
+.................................................
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fontspec/fon
+tspec.cfg")
+LaTeX Info: Redefining \itshape on input line 3625.
+LaTeX Info: Redefining \slshape on input line 3630.
+LaTeX Info: Redefining \scshape on input line 3635.
+LaTeX Info: Redefining \upshape on input line 3640.
+LaTeX Info: Redefining \em on input line 3670.
+LaTeX Info: Redefining \emph on input line 3695.
+(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fo
+nts/otl/lmroman12-bold.luc)(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/
+2.9/luatex-cache/generic/fonts/otl/lmroman12-italic.luc)
+LaTeX Info: Redefining \- on input line 3749.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 3844.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 3848.
+.................................................
+))
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyp
+erref.sty"
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/h
+obsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/h
+obsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/scripts/oberdiek/oberdie
+k.luatex.lua)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks30
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/aux
+hook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvo
+ptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen155
+\Hy@linkcounter=\count199
+\Hy@pagecounter=\count266
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1
+enc.def"
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count267
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyp
+erref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count268
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen156
+\Fld@menulength=\count269
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count270
+\c@Item=\count271
+\c@Hfootnote=\count272
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hlu
+atex.def"
+File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
+\Fld@listcount=\count273
+\c@bookmark@seq@number=\count274
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rer
+unfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
+)
+\Hy@SectionHShift=\skip55
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/gra
+phicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/gra
+phics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/tri
+g.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg
+/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def
+/luatex.def"
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/titlesec/tit
+lesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box43
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen161
+\ttl@minus=\dimen162
+\ttl@toksa=\toks31
+\titlewidth=\dimen163
+\titlewidthlast=\dimen164
+\titlewidthfirst=\dimen165
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/enumitem/enu
+mitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen166
+\enit@toks=\toks32
+\enit@inbox=\box44
+\enitdp@description=\count275
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.
+sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count276
+\float@exts=\toks33
+\float@box=\box45
+\@float@everytoks=\toks34
+\@floatcapt=\box46
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/breakurl/bre
+akurl.sty"
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkey
+val.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/xkeyval/xk
+eyval.tex"
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/xkeyval/xk
+vutils.tex"
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count277
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/fontenc
+.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/t1enc.d
+ef"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/lm/t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/chart
+er.sty"
+Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mathdesign/m
+athdesign.sty"
+Package: mathdesign 2013/08/29 v2.31 Math Design Project
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ifthen.
+sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+
+Package mathdesign Warning: No font specified on input line 175.
+
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/fontenc
+.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/t1enc.d
+ef"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)))
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/sectsty/sect
+sty.sty"
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styl
+es
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolo
+r.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg
+/color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 35.
+luaotfload | cache : Lookup cache loaded from C:/Users/Anjana Tiha/AppData/Local
+/MiKTeX/2.9/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: C:
+/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/calib
+ri.luc)
+\g__fontspec_family_Calibri_int=\count278
+(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fo
+nts/otl/calibriz.luc)(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/lu
+atex-cache/generic/fonts/otl/calibrib.luc)(load luc: C:/Users/Anjana Tiha/AppDat
+a/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/calibrii.luc)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Calibri(0)' created for font 'Calibri' with options
+. [Ligatures=TeX,Ligatures=TeX].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"Calibri:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"Calibri:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'bold' (b/n) with NFSS spec.:
+. <->"Calibri/B:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold small caps'  (b/sc) with NFSS spec.:
+. <->"Calibri/B:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"Calibri/I:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"Calibri/I:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'bold italic' (b/it) with NFSS spec.:
+. <->"Calibri/BI:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold italic small caps'  (b/itsc) with NFSS spec.:
+. <->"Calibri/BI:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+.................................................
+LaTeX Info: Redefining \sffamily on input line 47.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 47.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/psnfss/t1bch
+.fd"
+File: t1bch.fd 2004/10/18 font definitions for T1/bch.
+)(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/f
+onts/otl/cambria-1.luc)
+\g__fontspec_family_Cambria_int=\count279
+(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fo
+nts/otl/cambriaz.luc)(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/lu
+atex-cache/generic/fonts/otl/cambriab.luc)(load luc: C:/Users/Anjana Tiha/AppDat
+a/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/cambriai.luc)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Cambria(0)' created for font 'Cambria' with options
+. [Ligatures=TeX,Ligatures=TeX].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"Cambria:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"Cambria:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'bold' (b/n) with NFSS spec.:
+. <->"Cambria/B:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold small caps'  (b/sc) with NFSS spec.:
+. <->"Cambria/B:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"Cambria/I:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"Cambria/I:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'bold italic' (b/it) with NFSS spec.:
+. <->"Cambria/BI:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold italic small caps'  (b/itsc) with NFSS spec.:
+. <->"Cambria/BI:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+.................................................
+LaTeX Info: Redefining \rmfamily on input line 48.
+(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fo
+nts/otl/times.luc)
+\g__fontspec_family_TimesNewRoman_int=\count280
+(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fo
+nts/otl/timesbi.luc)(load luc: C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/lua
+tex-cache/generic/fonts/otl/timesbd.luc)(load luc: C:/Users/Anjana Tiha/AppData/
+Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/timesi.luc)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'TimesNewRoman(0)' created for font 'Times New Roman' with
+. options [Ligatures=TeX].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"TimesNewRoman:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"TimesNewRoman:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'bold' (b/n) with NFSS spec.:
+. <->"TimesNewRoman/B:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold small caps'  (b/sc) with NFSS spec.:
+. <->"TimesNewRoman/B:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"TimesNewRoman/I:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"TimesNewRoman/I:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+. - 'bold italic' (b/it) with NFSS spec.:
+. <->"TimesNewRoman/BI:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold italic small caps'  (b/itsc) with NFSS spec.:
+. <->"TimesNewRoman/BI:mode=node;script=latn;language=DFLT;+tlig;+smcp;"
+.................................................
+LaTeX Info: Redefining \subsubsectionfont on input line 49.
+ (./Anjana_Tiha_Masters_Project_v.1.0.0.3.aux)
+\openout1 = Anjana_Tiha_Masters_Project_v.1.0.0.3.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box47
+Package hyperref Info: Link coloring ON on input line 92.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nam
+eref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/g
+ettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count281
+)
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
+ (./Anjana_Tiha_Masters_Project_v.1.0.0.3.out)
+(./Anjana_Tiha_Masters_Project_v.1.0.0.3.out)
+\@outlinefile=\write3
+
+\openout3 = Anjana_Tiha_Masters_Project_v.1.0.0.3.out
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-
+pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count282
+\scratchdimen=\dimen167
+\scratchbox=\box48
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen168
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks38
+)
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/eps
+topdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grf
+ext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+) [1
+
+{C:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1] (./Anjana_Tiha_Masters_Project_v.1.0.0.3.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/ums
+a.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+
+("C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/ums
+b.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+])
+\tf@toc=\write4
+
+\openout4 = Anjana_Tiha_Masters_Project_v.1.0.0.3.toc
+ [2]
+Chapter 1.
+<images/face.png, id=184, 961.191pt x 520.8258pt>
+File: images/face.png Graphic file (type png)
+<use images/face.png>
+Package luatex.def Info: images/face.png  used on input line 145.
+(luatex.def)             Requested size: 480.59433pt x 260.41226pt.
+
+Overfull \hbox (27.62643pt too wide) in paragraph at lines 145--146
+ [] 
+ []
+
+
+Overfull \hbox (3.29749pt too wide) in paragraph at lines 142--148
+\TU/Cambria(0)/m/n/12 ness and cor-po-rate or-ga-ni-za-tions in-clud-ing gov-er
+n-ment, non-pro󰅭it and pri-vate ones. Their
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+Chapter 2.
+[3
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.1.1
+'
+<./images/face.png>]
+<images/seq2seq_related.png, id=191, 1590.94376pt x 478.78876pt>
+File: images/seq2seq_related.png Graphic file (type png)
+<use images/seq2seq_related.png>
+Package luatex.def Info: images/seq2seq_related.png  used on input line 157.
+(luatex.def)             Requested size: 477.2868pt x 143.63773pt.
+
+Overfull \hbox (24.31891pt too wide) in paragraph at lines 157--158
+ [] 
+ []
+
+<images/lstm.jpg, id=192, 584.93532pt x 327.47343pt>
+File: images/lstm.jpg Graphic file (type jpg)
+<use images/lstm.jpg>
+Package luatex.def Info: images/lstm.jpg  used on input line 165.
+(luatex.def)             Requested size: 233.96997pt x 130.98705pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--168
+
+ []
+
+[4
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
+'
+<./images/seq2seq_related.png>]
+<images/DRL1.png, id=199, 772.0845pt x 514.3215pt>
+File: images/DRL1.png Graphic file (type png)
+<use images/DRL1.png>
+Package luatex.def Info: images/DRL1.png  used on input line 175.
+(luatex.def)             Requested size: 386.0413pt x 257.16013pt.
+
+Overfull \hbox (13.29622pt too wide) in paragraph at lines 172--177
+\TU/Cambria(0)/m/n/12 force-ment Learn-ing (DRL) has been used for de-vel-op-in
+g long con-ver-sa-tion chat-bots. Seq2Seq
+ []
+
+
+Overfull \hbox (2.79904pt too wide) in paragraph at lines 172--177
+\TU/Cambria(0)/m/n/12 gard-less of in-put and can get stuck in a loop in longer
+ con-ver-sa-tions. This oc-curs as Seq2Seq
+ []
+
+
+Overfull \hbox (8.9338pt too wide) in paragraph at lines 172--177
+\TU/Cambria(0)/m/n/12 pre-dicts ut-ter-ances one at a time while ig-nor-ing the
+ir in-󰅭lu-ence on fu-ture out-comes. Seq2Seq
+ []
+
+[5
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.2
+'
+<./images/lstm.jpg>]
+<images/chatbot_research_conv1.png, id=207, 1462.46375pt x 407.5225pt>
+File: images/chatbot_research_conv1.png Graphic file (type png)
+<use images/chatbot_research_conv1.png>
+Package luatex.def Info: images/chatbot_research_conv1.png  used on input line 1
+82.
+(luatex.def)             Requested size: 482.61453pt x 134.48283pt.
+
+Overfull \hbox (29.64664pt too wide) in paragraph at lines 182--183
+ [] 
+ []
+
+[6<./images/DRL1.png><./images/chatbot_research_conv1.png>]
+Chapter 3.
+<images/chatbotfail1.png, id=213, 501.875pt x 494.84875pt>
+File: images/chatbotfail1.png Graphic file (type png)
+<use images/chatbotfail1.png>
+Package luatex.def Info: images/chatbotfail1.png  used on input line 195.
+(luatex.def)             Requested size: 200.74643pt x 197.93599pt.
+<images/chatbotfail2.png, id=214, 411.5375pt x 520.94624pt>
+File: images/chatbotfail2.png Graphic file (type png)
+<use images/chatbotfail2.png>
+Package luatex.def Info: images/chatbotfail2.png  used on input line 198.
+(luatex.def)             Requested size: 185.19016pt x 234.42365pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--201
+
+ []
+
+[7
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
+'
+<./images/chatbotfail1.png><./images/chatbotfail2.png>]
+Chapter 4.
+<images/rnn1.jpg, id=220, 797.98125pt x 320.19624pt>
+File: images/rnn1.jpg Graphic file (type jpg)
+<use images/rnn1.jpg>
+Package luatex.def Info: images/rnn1.jpg  used on input line 210.
+(luatex.def)             Requested size: 199.49481pt x 80.04886pt.
+<images/lstm2.png, id=221, 1606.0pt x 681.54625pt>
+File: images/lstm2.png Graphic file (type png)
+<use images/lstm2.png>
+Package luatex.def Info: images/lstm2.png  used on input line 219.
+(luatex.def)             Requested size: 353.32109pt x 149.94063pt.
+
+Overfull \hbox (1.02577pt too wide) in paragraph at lines 216--222
+\TU/Cambria(0)/m/n/12 Long-Short-Term-Memory(LSTM) is a spe-cial type of Re-cur
+-rent Neu-ral Net-work cell, which
+ []
+
+[8
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.1
+'
+<./images/rnn1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--241
+
+ []
+
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+[9
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
+'
+<./images/lstm2.png>]
+<images/encdec.jpg, id=240, 918.43124pt x 130.4875pt>
+File: images/encdec.jpg Graphic file (type jpg)
+<use images/encdec.jpg>
+Package luatex.def Info: images/encdec.jpg  used on input line 249.
+(luatex.def)             Requested size: 459.2145pt x 65.24358pt.
+
+Overfull \hbox (6.2466pt too wide) in paragraph at lines 249--250
+ [] 
+ []
+
+<images/seq2seq.jpg, id=241, 793.96625pt x 653.44125pt>
+File: images/seq2seq.jpg Graphic file (type jpg)
+<use images/seq2seq.jpg>
+Package luatex.def Info: images/seq2seq.jpg  used on input line 257.
+(luatex.def)             Requested size: 277.89235pt x 228.70786pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
+
+ []
+
+[10
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.5.1
+'
+<./images/encdec.jpg>] [11
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.5.2
+'
+<./images/seq2seq.jpg>]
+<images/attention_vis.jpg, id=256, 1895.08pt x 2004.48875pt>
+File: images/attention_vis.jpg Graphic file (type jpg)
+<use images/attention_vis.jpg>
+Package luatex.def Info: images/attention_vis.jpg  used on input line 266.
+(luatex.def)             Requested size: 189.5191pt x 200.46062pt.
+<images/attention_mechanism.jpg, id=257, 668.4975pt x 495.8525pt>
+File: images/attention_mechanism.jpg Graphic file (type jpg)
+<use images/attention_mechanism.jpg>
+Package luatex.def Info: images/attention_mechanism.jpg  used on input line 273.
+
+(luatex.def)             Requested size: 200.5508pt x 148.7569pt.
+ [12
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.5.3
+'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.5.4
+'
+<./images/attention_vis.jpg><./images/attention_mechanism.jpg>]
+<images/attention_equation_1.jpg, id=267, 2055.68pt x 207.77625pt>
+File: images/attention_equation_1.jpg Graphic file (type jpg)
+<use images/attention_equation_1.jpg>
+Package luatex.def Info: images/attention_equation_1.jpg  used on input line 291
+.
+(luatex.def)             Requested size: 370.00644pt x 37.3981pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
+
+ []
+
+[13<./images/attention_equation_1.jpg>](load luc: C:/Users/Anjana Tiha/AppData/L
+ocal/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmmono12-regular.luc)(load luc: C
+:/Users/Anjana Tiha/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/lmmo
+no8-regular.luc)
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
+
+ []
+
+
+Overfull \hbox (6.85559pt too wide) in paragraph at lines 308--310
+\TU/Cambria(0)/m/n/12 The data cor-pus can be found in [][]$\TU/lmtt/m/n/12 htt
+p://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 cs\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 co
+rnell\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 edu/~cristian/Cornell[]Movie-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--320
+
+ []
+
+[14]
+Chapter 7.
+
+Overfull \hbox (41.1591pt too wide) in paragraph at lines 326--336
+[][] 
+ []
+
+[15
+warning  (pdf backend): ignoring duplicate destination with the name 'table.7.1'
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'table.7.2'
+
+]
+Chapter 8.
+Chapter 9.
+
+Overfull \hbox (7.4989pt too wide) in paragraph at lines 370--371
+\TU/Cambria(0)/m/n/12 con-ver-sa-tion and has been tested with 5000+5000 ut-ter
+-ance and val-i-dated with 5000+5000
+ []
+
+
+Overfull \hbox (17.34071pt too wide) in paragraph at lines 375--387
+ [] 
+ []
+
+<images/training_parameter.png, id=292, 613.8132pt x 240.4182pt>
+File: images/training_parameter.png Graphic file (type png)
+<use images/training_parameter.png>
+Package luatex.def Info: images/training_parameter.png  used on input line 394.
+(luatex.def)             Requested size: 429.6663pt x 168.29158pt.
+[16
+warning  (pdf backend): ignoring duplicate destination with the name 'table.8.1'
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'table.9.1'
+
+]
+Chapter 10.
+<images/chat_gen.png, id=299, 802.197pt x 414.348pt>
+File: images/chat_gen.png Graphic file (type png)
+<use images/chat_gen.png>
+Package luatex.def Info: images/chat_gen.png  used on input line 401.
+(luatex.def)             Requested size: 481.32191pt x 248.61072pt.
+
+Overfull \hbox (28.35402pt too wide) in paragraph at lines 401--402
+ [] 
+ []
+
+[17<./images/training_parameter.png><./images/chat_gen.png>]
+Chapter 11.
+<images/chat_gui.png, id=306, 1111.15125pt x 533.995pt>
+File: images/chat_gui.png Graphic file (type png)
+<use images/chat_gui.png>
+Package luatex.def Info: images/chat_gui.png  used on input line 427.
+(luatex.def)             Requested size: 444.45262pt x 213.59421pt.
+Chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--435
+
+ []
+
+
+Overfull \hbox (8.77773pt too wide) in paragraph at lines 431--435
+\TU/Cambria(0)/m/n/12 self-contained with Bi-directional LSTM cells, Neu-ral At
+-ten-tion mech-a-nism and Beam search
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--435
+
+ []
+
+[18
+warning  (pdf backend): ignoring duplicate destination with the name 'table.10.1
+'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.11.
+1'
+<./images/chat_gui.png>]
+Chapter 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--440
+
+ []
+
+
+Overfull \hbox (18.58524pt too wide) in paragraph at lines 437--440
+\TU/Cambria(0)/m/n/12 Apart from al-go-rithm im-prove-ment, per-for-mance could
+ be fur-ther op-ti-mized if bet-ter datasets
+ []
+
+
+Overfull \hbox (7.51146pt too wide) in paragraph at lines 437--440
+\TU/Cambria(0)/m/n/12 were avail-able. Be-fore us-ing Cor-nell Movie Dataset, I
+ have ex-per-i-mented with other datasets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--440
+
+ []
+
+[19]
+Chapter 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+Chapter 15.
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
+[]\TU/Cambria(0)/m/it/12 Neu-ral Ma-chine Trans-la-tion (seq2seq) Tu-to-rial []
+[]$\TU/lmtt/m/n/12 https://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 tensorflow\OML/
+cmm/m/it/12 :\TU/lmtt/m/n/12 org/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--472
+[]\TU/Cambria(0)/m/it/12 Cor-nell Movie Di-alogs Cor-pus [][]$\TU/lmtt/m/n/12 h
+ttp://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 cs\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 
+cornell\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 edu/~cristian/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--472
+
+ []
+
+[21
+
+]
+Chapter 16.
+
+Overfull \hbox (25.16478pt too wide) in paragraph at lines 478--479
+[][][]$\TU/lmtt/m/n/12 https://chatbotsmagazine\OML/cmm/m/it/12 :\TU/lmtt/m/n/1
+2 com/to-build-a-successful-chatbot-ask-these-
+ []
+
+
+Overfull \hbox (16.06865pt too wide) in paragraph at lines 479--480
+[][][]$\TU/lmtt/m/n/12 https://labs\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 bawi\OML/c
+mm/m/it/12 :\TU/lmtt/m/n/12 io/creating-a-conversational-chatbot-using-wit-ai-
+ []
+
+
+Overfull \hbox (16.06865pt too wide) in paragraph at lines 480--481
+[][][]$\TU/lmtt/m/n/12 https://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 ipsoft\OML/
+cmm/m/it/12 :\TU/lmtt/m/n/12 com/2017/11/20/when-chatbots-fail-virtual-agents-
+ []
+
+
+Overfull \hbox (34.60863pt too wide) in paragraph at lines 481--482
+[][][]$\TU/lmtt/m/n/12 https://isaacchanghau\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 g
+ithub\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 io/2017/08/02/Seq2Seq-Learning-and-Neura
+l-
+ []
+
+
+Overfull \hbox (28.42863pt too wide) in paragraph at lines 483--485
+[][][]$\TU/lmtt/m/n/12 https://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 altoros\OML
+/cmm/m/it/12 :\TU/lmtt/m/n/12 com/blog/text-prediction-with-tensorflow-and-long
+-
+ []
+
+
+Overfull \hbox (6.6248pt too wide) in paragraph at lines 485--486
+[][][]$\TU/lmtt/m/n/12 https://medium\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/the-
+mission/11-best-uses-of-chatbots-right-now-
+ []
+
+
+Overfull \hbox (12.8048pt too wide) in paragraph at lines 487--488
+[][][]$\TU/lmtt/m/n/12 https://chatbotsmagazine\OML/cmm/m/it/12 :\TU/lmtt/m/n/1
+2 com/how-to-develop-a-chatbot-from-scratch-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+[22]
+Chapter 17.
+
+Overfull \hbox (18.9728pt too wide) in paragraph at lines 495--496
+[][][]$\TU/lmtt/m/n/12 https://cognitiveseo\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 co
+m/blog/wp-content/uploads/2017/06/Is-Chatbot-
+ []
+
+
+Overfull \hbox (0.44481pt too wide) in paragraph at lines 496--497
+[][][]$\TU/lmtt/m/n/12 http://nyintl\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 net/site/
+wp-content/uploads/2018/01/robot-customer-
+ []
+
+
+Overfull \hbox (31.69249pt too wide) in paragraph at lines 498--499
+[][][]$\TU/lmtt/m/n/12 http://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 netalogue\OM
+L/cmm/m/it/12 :\TU/lmtt/m/n/12 com/wp-content/uploads/2017/03/chatbot-880x541\O
+ML/cmm/m/it/12 :\TU/lmtt/m/n/12 png$[][] 
+ []
+
+
+Overfull \hbox (53.10063pt too wide) in paragraph at lines 499--500
+[][][]$\TU/lmtt/m/n/12 https://betanews\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/wp
+-content/uploads/2017/08/chatbot-e1501792996887\OML/cmm/m/it/12 :\TU/lmtt/m/n/1
+2 jpg$[][] 
+ []
+
+
+Overfull \hbox (3.70866pt too wide) in paragraph at lines 500--501
+[][][]$\TU/lmtt/m/n/12 https://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 adityathakk
+er\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/wp-content/uploads/2017/05/Facebook-
+ []
+
+
+Overfull \hbox (19.32051pt too wide) in paragraph at lines 501--502
+[][][]$\TU/lmtt/m/n/12 https://cdn-images-1\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 me
+dium\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/max/1200/1*FYFI4jbAUMqbXxlo6V[]lBA\OM
+L/cmm/m/it/12 :\TU/lmtt/m/n/12 png$[][] 
+ []
+
+
+Overfull \hbox (9.88866pt too wide) in paragraph at lines 502--503
+[][][]$\TU/lmtt/m/n/12 http://sunnyapps\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 co/ass
+ets/images/temp/sunnyapps-chatbots-about\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 png$[
+][] 
+ []
+
+
+Overfull \hbox (53.1486pt too wide) in paragraph at lines 503--504
+[][][]$\TU/lmtt/m/n/12 https://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 liveworld\O
+ML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/wp-content/uploads/2017/07/Chatbots-in-cust
+omer-
+ []
+
+
+Overfull \hbox (25.5125pt too wide) in paragraph at lines 504--505
+[][][]$\TU/lmtt/m/n/12 https://cdn-images-1\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 me
+dium\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/max/1200/1*fNPqCg4vBiCQS1-nFs7gYA\OML
+/cmm/m/it/12 :\TU/lmtt/m/n/12 jpeg$[][] 
+ []
+
+
+Overfull \hbox (46.96861pt too wide) in paragraph at lines 507--508
+[][][]$\TU/lmtt/m/n/12 https://bot-hub\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/med
+ia/print[]screen/Yahoo-Weather/yahooweather[][]4\OML/cmm/m/it/12 :\TU/lmtt/m/n/
+12 jpeg$[][] 
+ []
+
+
+Overfull \hbox (217.08028pt too wide) in paragraph at lines 509--510
+[][][]$\TU/lmtt/m/n/12 https://4\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 bp\OML/cmm/m/
+it/12 :\TU/lmtt/m/n/12 blogspot\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/-UWs8Wger9
+LQ/WQ8Uh05oMzI/AAAAAAAABrc/oFhlMOasZZIxjDZOxmXGEJLBIfTd2VETACLcB/
+ []
+
+
+Overfull \hbox (29.11208pt too wide) in paragraph at lines 510--511
+[][][]$\TU/lmtt/m/n/12 http://static\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 hackingre
+venue\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 s3\
+OML/cmm/m/it/12 :\TU/lmtt/m/n/12 amazonaws\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com
+/2016/08/motionai[]0\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 png$[][] 
+ []
+
+
+Overfull \hbox (65.4966pt too wide) in paragraph at lines 511--512
+[][][]$\TU/lmtt/m/n/12 https://botlist\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 co/syst
+em/BotList/Bot/logos/000/000/627/medium/recast[]ai\OML/cmm/m/it/12 :\TU/lmtt/m/
+n/12 png$[][] 
+ []
+
+
+Overfull \hbox (3.70866pt too wide) in paragraph at lines 513--514
+[][][]$\TU/lmtt/m/n/12 http://www\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 dieproduktma
+cher\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/wp-content/uploads/2017/08/lex-vs-
+ []
+
+
+Overfull \hbox (22.22466pt too wide) in paragraph at lines 514--515
+[][][]$\TU/lmtt/m/n/12 http://bodhiinfo\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/bl
+og/wp-content/uploads/2016/09/google-apiai\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 jpg
+$[][] 
+ []
+
+
+Overfull \hbox (13.14052pt too wide) in paragraph at lines 515--516
+[][][]$\TU/lmtt/m/n/12 https://cdn-images-1\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 me
+dium\OML/cmm/m/it/12 :\TU/lmtt/m/n/12 com/max/860/1*QoCscxdXl2mkWqL7mGfALA\OML/
+cmm/m/it/12 :\TU/lmtt/m/n/12 png$[][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 517.
+[23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 517.
+ (./Anjana_Tiha_Masters_Project_v.1.0.0.3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 517.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 517.
+Package rerunfilecheck Info: File `Anjana_Tiha_Masters_Project_v.1.0.0.3.out' ha
+s not changed.
+(rerunfilecheck)             Checksum: E536BDC3400B95F9B6A6D27E054CADFD;2085.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 517.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 19527 strings out of 494447
+ 100000,552014 words of node,token memory allocated
+ 663 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 23 attribute, 58 glue_spec, 23 attr
+ibute_list, 1 write, 16 pdf_action nodes
+   avail lists: 2:607,3:395,4:102,5:424,6:49,7:4940,8:165,9:185,10:17,11:402
+ 22601 multiletter control sequences out of 65536+200000
+ 74 fonts using 28390751 bytes
+ 39i,13n,68p,2077b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Windows/Fonts/cambriai.ttf><c:/users/anjana tiha/appdata/local/programs/mikt
+ex 2.9/fonts/opentype/public/lm/lmmono12-regular.otf><C:/Windows/Fonts/calibrib.
+ttf><C:/Windows/Fonts/cambria.ttc><C:/Windows/Fonts/cambriab.ttf><C:/Users/Anjan
+a Tiha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb><C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Anjana Tiha/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Anjana Tiha/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
+/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb><C:/Users/Anjana Tiha/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Anjana_Tiha_Masters_Project_v.1.0.0.3.pdf (25 pages, 2350665 b
+ytes).
+
+PDF statistics: 494 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 131072)
+ 257 words of extra memory for PDF output out of 10000 (max. 100000000)
+
