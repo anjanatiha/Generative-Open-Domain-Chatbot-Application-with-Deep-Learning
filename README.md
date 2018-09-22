@@ -20,7 +20,7 @@ Sample Conversations:
 ![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png "")
 
 Demo:
-<iframe width="1519" height="506" src="https://www.youtube.com/embed/Kmptt97S1rg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kmptt97S1rg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ##### Languages   : Python
 ##### Tools/IDE   : Anaconda
