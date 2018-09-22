@@ -12,10 +12,10 @@
 4. Developed backend using Python and front-end using Python and PyQT.
 
 
-####Intelligent Chatbot Graphical Interface: 
+#### Intelligent Chatbot Graphical Interface: 
 ![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png "")
 
-####Sample Conversations:
+#### Sample Conversations:
 ![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png "")
 
 
