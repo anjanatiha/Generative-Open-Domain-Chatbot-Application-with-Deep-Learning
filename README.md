@@ -9,15 +9,14 @@
 3. Enhanced chatbot performance by applying Neural Attention Mechanism and Beam Search.
 4. Developed backend using Python and front-end using Python and PyQT.
 
-Here's our logo (hover to see the title text):
 
-Inline-style: 
-![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png "Intelligent Chatbot Graphical Interface")
+Intelligent Chatbot Graphical Interface: 
+![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png "")
 
-Reference-style: 
+Sample Conversations: 
 ![alt text][logo]
 
-[logo]: https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png "Sample Conversation"
+[logo]: https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png ""
 
 
 #### Tools Requirement: Anaconda, Python 
