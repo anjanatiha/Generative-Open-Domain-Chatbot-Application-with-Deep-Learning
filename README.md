@@ -13,11 +13,13 @@
 
 
 #### Intelligent Chatbot Graphical Interface: 
-![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png "")
-
+<kbd>
+<img src=https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png>
+</kbd>
 #### Sample Conversations:
-![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png "")
-
+<kbd>
+<img src=https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png>
+</kbd>
 
 ##### Languages   : Python
 ##### Tools/IDE   : Anaconda
