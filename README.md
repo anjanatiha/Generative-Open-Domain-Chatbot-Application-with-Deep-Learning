@@ -16,6 +16,7 @@
 <kbd>
 <img src=https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png>
 </kbd>
+
 #### Sample Conversations:
 <kbd>
 <img src=https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png>
