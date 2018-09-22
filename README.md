@@ -12,12 +12,12 @@
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png "Logo Title Text 1")
+![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png "Intelligent Chatbot Graphical Interface")
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png "Logo Title Text 2"
+[logo]: https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png "Sample Conversation"
 
 
 #### Tools Requirement: Anaconda, Python 
