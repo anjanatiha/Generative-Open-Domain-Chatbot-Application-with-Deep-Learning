@@ -3,7 +3,6 @@
 ##### Domain             : Artificial Intelligence, Machine Learning, Natural Language Processing
 ##### Sub-Domain         : Deep Learning, Conversational Agent, Language Modeling
 ##### Techniques         : Sequence-to-Sequence (Seq2Seq), Recurrent Neural Network, Bidirectional RNN, LSTM, Neural Attention Mechanism, Beam Search, Neural Machine Translation, TensorFlow
-##### Application Domain : Chatbot
 
 
 ### Description
@@ -19,8 +18,6 @@ Intelligent Chatbot Graphical Interface:
 Sample Conversations:
 ![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png "")
 
-Demo:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Kmptt97S1rg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ##### Languages   : Python
 ##### Tools/IDE   : Anaconda
