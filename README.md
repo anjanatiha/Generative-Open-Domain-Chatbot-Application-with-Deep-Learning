@@ -1,7 +1,10 @@
 # Intelligent Chatbot using Deep Neural Network
 
-#### Technology : Python, TensorFlow, Seq2Seq, PyQT
-#### Duration   : Jan – May 18
+##### Domain             : Artificial Intelligence, Machine Learning, Natural Language Processing
+##### Sub-Domain         : Deep Learning, Conversational Agent, Language Modeling
+##### Techniques         : Sequence-to-Sequence (Seq2Seq), Recurrent Neural Network, Bidirectional RNN, LSTM, Neural Attention Mechanism, Beam Search, Neural Machine Translation, TensorFlow
+##### Application Domain : Chatbot
+
 
 ### Description
 1. Developed chatbot using encoder and decoder based Sequence-to-Sequence (Seq2Seq) model from Google’s Neural Machine Translation (NMT) module and Cornell Movie Subtitle Corpus. 
@@ -13,13 +16,17 @@
 Intelligent Chatbot Graphical Interface: 
 ![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gui.png "")
 
-Sample Conversations: 
-![alt text][logo]
+Sample Conversations:
+![alt text](https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png "")
 
-[logo]: https://github.com/anjanatiha/Intelligent-Chatbot/blob/master/images/chat_gen.png ""
+Demo:
+[![IMAGE ALT TEXT HERE](https://youtu.be/Kmptt97S1rg)](https://youtu.be/Kmptt97S1rg)
 
+##### Languages   : Python
+##### Tools/IDE   : Anaconda
+##### Libraries   : Neural Machine Translation, TensorFlow, PyQT
 
-#### Tools Requirement: Anaconda, Python 
+##### Duration   : Jan – May 18
 
 Current Version  : v1.0.0.0
 
