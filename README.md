@@ -9,7 +9,8 @@
 1. Developed chatbot using encoder and decoder based Sequence-to-Sequence (Seq2Seq) model from Google’s Neural Machine Translation (NMT) module and Cornell Movie Subtitle Corpus. 
 2. Seq2Seq architecture built on Recurrent Neural Network and was optimized with bidirectional LSTM cells.
 3. Enhanced chatbot performance by applying Neural Attention Mechanism and Beam Search.
-4. Developed backend using Python and front-end using Python and PyQT.
+4. Attained testing perplexity of 46.82 and Bleu 10.6.
+5. Developed backend using Python and front-end using Python and PyQT.
 
 
 #### Intelligent Chatbot Graphical Interface: 
